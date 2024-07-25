@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.navbar{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #fbf2c4;
+}
+
+@media screen and (max-width: 991px){
+    
+    .navbar-nav{
+        text-align: right;
+    }
+    
+}
