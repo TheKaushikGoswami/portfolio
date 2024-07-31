@@ -11,7 +11,7 @@ export default function Nav() {
         <div>
             <nav className="navbar navbar-expand-lg" style={{backgroundColor:'var(--color-1)'}}>
                 <div className="container-fluid">
-                    <a className="navbar-brand mx-2 mb-0 w-50" href="/">
+                    <a className="navbar-brand mx-2 mb-0" href="/">
                         <img src="https://avatars.githubusercontent.com/u/70503983?v=4" alt="logo" width="40" height="40" className="d-inline-block align-text-top rounded-circle" />
                     </a>
                     <div className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{border:"none",outline:'none',"&:active": { oultline: "none" },margin:'0'}}>
