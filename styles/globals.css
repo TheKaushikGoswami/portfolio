@@ -1,0 +1,38 @@
+/* styles/globals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+  }
+  
+  nav {
+    background: #4d4d4d;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .skill {
+    background: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+  
