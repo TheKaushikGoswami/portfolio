@@ -24,12 +24,12 @@ export default function Nav() {
 
                       </div>
                       <div className="navbar-nav">
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/">HOME</Link>
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/projects">PROJECTS</Link>
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/resume">RESUME</Link>
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/stats">STATS</Link>
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/skills">SKILLS</Link>
-                          <Link onClick={closeNav} className="nav-link mx-4" to="/contact">CONTACT</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/">HOME</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/projects">PROJECTS</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/resume">RESUME</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/stats">STATS</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/skills">SKILLS</Link>
+                          <Link onClick={closeNav} className="nav-link mx-4 hover-glow text-light" to="/contact">CONTACT</Link>
                       </div>
                     </div>
                 </div>

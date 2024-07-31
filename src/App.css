@@ -5,7 +5,11 @@
 }
 
 body{
-    background-color: #fbf2c4;
+    background-color: #343a40;
+}
+
+.nav-link:hover{
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
 }
 
 @media screen and (max-width: 991px){
