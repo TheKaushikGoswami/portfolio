@@ -27,9 +27,22 @@ body{
     display: none !important;
 }
 
-.diagonal-border{
-    padding: 0px !important;
-    background: linear-gradient(70deg, #343a40 20vw, #23262a 0vw);
+.diagonal-border:after{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  transform: skew(-45deg);
+  z-index: -1;
+    
 }
 
 .show{
